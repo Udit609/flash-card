@@ -16,6 +16,7 @@ class FCards extends StatefulWidget {
 
 class _FCardsState extends State<FCards> {
   TextEditingController bodyController = TextEditingController();
+
   Color selectedColor = const Color(0xFFE75466);
   int charLength = 0;
 

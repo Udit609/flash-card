@@ -12,6 +12,7 @@ class FutureBuild extends StatelessWidget {
   final Function insertFunction;
   final Function deleteFunction;
   final Future<List<dynamic>>? future;
+
   final db = DatabaseModel();
 
   @override

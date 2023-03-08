@@ -16,8 +16,10 @@ class QuesPage extends StatefulWidget {
 
 class _QuesPageState extends State<QuesPage> {
   var db = DatabaseModel();
+
   bool isLoading = true;
   bool buildAns = false;
+
   int index = 0;
   int score = 0;
 

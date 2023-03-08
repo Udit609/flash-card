@@ -28,8 +28,9 @@ class CardTitle extends StatelessWidget {
       ),
       width: 300.0,
       child: Card(
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20.0),
+        ),
         elevation: 0.0,
         color: Colors.white,
         child: Column(

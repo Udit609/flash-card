@@ -21,6 +21,7 @@ class EditCard extends StatefulWidget {
 class _EditCardState extends State<EditCard> {
   late final TextEditingController bodyController;
   late final TextEditingController titleController;
+
   Color selectedColor = const Color(0xFFFFFFFF);
 
   var db = DatabaseModel();

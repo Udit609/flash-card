@@ -14,8 +14,10 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
   String categoryName = 'Quiz category';
   var db = DatabaseModel();
+
   bool isLoading = true;
   bool validate = false;
+
   final TextEditingController categoryController = TextEditingController();
   List<QuizModel> quizzes = [];
   List<Widget> get activeWidgets =>

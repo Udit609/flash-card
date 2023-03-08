@@ -22,8 +22,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      darkTheme:
-          ThemeData.dark().copyWith(colorScheme: const ColorScheme.dark()),
+      darkTheme: ThemeData.dark().copyWith(
+        colorScheme: const ColorScheme.dark(),
+      ),
       themeMode: _themeMode,
       home: const HomePage(),
     );
